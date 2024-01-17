@@ -657,6 +657,35 @@ p {
     }
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.itemblock table td input {
+    width: 42px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    color: #464646;
+    font-weight: 500;
+    outline: none;
+    height: 24px;
+    border-radius: 3px;
+
+    &:focus {
+        background: #eccfa2;
+    }
+}
+
+
+
+
 @media(max-width:991.8px) {
     .invoiceheader .leftsect h1 {
         font-size: 33px;
@@ -1006,6 +1035,10 @@ p {
     }
 
 }
+
+
+
+// 45
 
 
 // font-family: 'Montserrat', sans-serif;
